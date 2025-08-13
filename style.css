@@ -1,0 +1,53 @@
+.Menu {
+    width: 100px;
+    height: 600px;
+    background-color: blueviolet;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Menu:hover .submenu {
+    display: block;
+}
+
+
+
+.submenu {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    left: 100%;
+    /* left: 0; */
+    margin: 0;
+    padding: 10px;
+    background-color: blueviolet;
+    display: none;
+}
+
+.submenu-text {
+    font-size: 25px;
+}
+
+.submenu-text:hover {
+    color: aqua;
+}
+
+.text {
+
+    position: absolute;
+    bottom: 50%;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    white-space: nowrap;
+    width: 100%;
+
+
+}
